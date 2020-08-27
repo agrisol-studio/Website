@@ -31,6 +31,19 @@ body {
   }
 }
 
+.fold-heading {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.8rem;
+  letter-spacing: 0.18rem;
+}
+
+.rowText {
+  letter-spacing: 1px;
+  text-align: justify;
+  line-height: 2.5em;
+  font-size: 0.875rem;
+}
+
 .img-container-1 {
   background-image: url("../../Content/Images/landing-page-4.png");
   background-size: cover;
@@ -42,6 +55,12 @@ body {
 
 .img-container-1 .content {
   min-height: 500px;
+}
+
+.img-container-2 {
+  background-image: url("../../Content/Images/23-smaller.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .brandLogo {
