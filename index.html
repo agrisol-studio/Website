@@ -6,25 +6,6 @@ body, html {
   margin: 0;
 }
 
-.bgimg {
-  background-image: url('Content/Images/landing-page.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: 'BebasNeue Bold',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 25px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
   .img-container-1
   {
     background-image: url('Content/Images/landing-page.jpg');
@@ -34,34 +15,88 @@ body, html {
     width: 100%;
     height:500px;
   }
+
+  [class*="col"] {
+    border:1px solid magenta
+}
 </style>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="Content/scss/base.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Agrisol</title>
 </head>
-<body>
-  <div class="container-fluid" style="border:1px solid magenta">
-    <div class="row" style="height: 200px;">
+<body id="theme">
+  <div class="container-fluid">
+    <div class="row">
       <div class="offset-md-1 col-md-10 col-12">
-        <div class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar"></div>
+        
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <div class="brandLogo d-flex align-items-end">
+            <img src="Content/Images/logo-colored65.png" class="img-fluid" />
+            <div class="brandText ml-2">
+                <div class="name">AGRISOL</div>
+                <div class="slogan">A SUSTAINABLE FUTURE</div>
+            </div>
+        </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">WHY AGRISOL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OUR STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OUR PRODUCT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">THE TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LOGIN / SIGNUP</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
 
       </div>
     </div>
     
     <div class="row">
-      <div class="img-container-1">
-  
+      <div class="img-container-1 text-center py-5">
+        <div class="content">
+         <div class="row justify-content-center">
+           <div class="col-4">
+             <img src="Content/Images/logo-gld.svg" class="img-fluid" style="max-height:150px">
+           </div>
+         </div>
+          <div class="agrisolName">AGRISOL</div>
+          <div class="agrisolSlogan">
+            <p style="font-style:italic;">A Sustainable Future</p>
+          
+            <p>-</p>
+            <div style="font-size:1.25rem;">
+              <p>We give independent advice to the farmer to help him to farm sustainable and mitigate his risks.</p>
+              <p>No product sales, Sustainable, Scientific, Accessible, Understandable, Environmental friendly.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-<div class="bgimg">
-  <div class="middle">
-    <h1>COMING REALLY SOON ... ;-)</h1>
-  </div>
-</div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

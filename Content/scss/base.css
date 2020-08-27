@@ -1,17 +1,78 @@
+body {
+  color: #005750;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.agrisolName {
+  font-family: 'Bebas Neue';
+  font-size: 10vw;
+  color: white;
+  letter-spacing: 2vw;
+}
+
+@media (min-width: 992px) {
+  .agrisolName {
+    font-size: 6.5rem;
+    letter-spacing: 2.5rem;
+  }
+}
+
+.agrisolSlogan {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .agrisolSlogan {
+    font-size: 1.3rem;
+    letter-spacing: 0.06rem;
+  }
+}
+
 .img-container-1 {
-  background-image: url("../../Content/Images/landing-page.jpg");
+  background-image: url("../../Content/Images/landing-page-4.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 
-div {
-  border: 1px solid red;
+.img-container-1 .content {
+  min-height: 500px;
 }
 
-.col* {
-  border: 1px solid red;
+.brandLogo {
+  color: #005750;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.brandLogo .brandText .name {
+  font-size: 38px;
+  letter-spacing: 10px;
+}
+
+.brandLogo .brandText .slogan {
+  font-size: 11px;
+  letter-spacing: 4px;
+  margin-top: -11px;
+}
+
+#theme .nav-item {
+  border: 2px solid transparent;
+}
+
+#theme .nav-item.active {
+  border: 2px solid #005750;
+}
+
+#theme .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #005750;
+  font-size: 0.8rem;
+  letter-spacing: 0.07rem;
 }
 /*# sourceMappingURL=base.css.map */

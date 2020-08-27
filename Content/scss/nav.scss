@@ -1,0 +1,35 @@
+.brandLogo {
+    color: $brand-primary;
+    font-family: 'Bebas Neue', cursive;
+
+    .brandText .name{
+        font-size:38px;
+        letter-spacing: 10px;
+    }
+    .brandText .slogan{
+        font-size: 11px;
+        letter-spacing: 4px;
+        margin-top: -11px;
+    }
+}
+
+#theme {
+
+    .nav-item {
+        border:2px solid transparent; //TODO: not suppose to be necessary
+    }
+
+    .nav-item.active {
+        border:2px solid $brand-primary;    
+    }
+    
+    .nav-link
+    {
+        font-family: 'Open Sans', sans-serif;
+        font-weight:700;
+        color:$brand-primary;
+        font-size: 0.8rem;
+        letter-spacing: 0.07rem;
+    }
+
+}

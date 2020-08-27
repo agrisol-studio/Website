@@ -1,0 +1,31 @@
+body 
+{
+    color: $brand-primary;
+    font-family:'Open Sans', sans-serif;
+}
+
+.agrisolName
+{
+    font-family: 'Bebas Neue';
+    font-size:10vw;
+    color:white;
+    letter-spacing: 2vw;
+
+    @media (min-width: 992px) {
+        font-size:6.5rem;
+        letter-spacing: 2.5rem;
+      }
+}
+
+.agrisolSlogan
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    color:white;
+
+    @media (min-width: 992px) {
+        font-size:1.3rem; //20
+        letter-spacing: 0.06rem; //1
+      }
+}
