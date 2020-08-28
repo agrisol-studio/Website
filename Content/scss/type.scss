@@ -36,9 +36,23 @@ body
     letter-spacing:0.18rem;
 }
 
+.rowHeading {
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: right;
+    line-height: 2.5em;
+    font-size:0.875rem;
+}
+
 .rowText {
     letter-spacing: 1px;
     text-align: justify;
     line-height: 2.5em;
     font-size:0.875rem;
+}
+
+.rtl
+{
+    direction:rtl;
 }
