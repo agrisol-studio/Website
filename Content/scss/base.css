@@ -5,6 +5,7 @@
 body {
   color: #005750;
   font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
 }
 
 .text-i {
@@ -21,6 +22,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weight: 600;
+}
+
+.text-bi {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .font-size-lg {
