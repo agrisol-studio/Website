@@ -135,6 +135,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.img-container-8 {
+  background-image: url("../../Content/Images/values.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .brandLogo {
   color: #005750;
   font-family: 'Bebas Neue', cursive;

@@ -16,4 +16,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.img-container-8 {
+  background-image: url("../../Content/Images/values.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=images.css.map */
