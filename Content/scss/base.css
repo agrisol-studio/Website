@@ -3,6 +3,27 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.text-i {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.text-sbi {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.font-size-lg {
+  letter-spacing: 1px;
+  line-height: 2.5em;
+  font-size: 0.875rem;
+}
+
+.font-size-md {
+  font-size: 1.3rem;
+}
+
 .agrisolName {
   font-family: 'Bebas Neue';
   font-size: 10vw;
@@ -37,6 +58,20 @@ body {
   letter-spacing: 0.18rem;
 }
 
+.fold-heading-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  letter-spacing: 0.06rem;
+  font-style: italic;
+}
+
+.fold-heading-2 .text-u {
+  border-bottom-color: #005750;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
 .rowHeading {
   font-style: italic;
   font-weight: 700;
@@ -59,6 +94,10 @@ body {
 
 .text-wh {
   color: white;
+}
+
+.text-gld {
+  color: #B49751;
 }
 
 .img-container-1 {
