@@ -1,3 +1,7 @@
+.agr-bg-primary {
+  background-color: #005750;
+}
+
 body {
   color: #005750;
   font-family: 'Open Sans', sans-serif;
@@ -6,6 +10,11 @@ body {
 .text-i {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
+}
+
+.text-b {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .text-sbi {
