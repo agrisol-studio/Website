@@ -57,6 +57,10 @@ body {
   direction: rtl;
 }
 
+.text-wh {
+  color: white;
+}
+
 .img-container-1 {
   background-image: url("../../Content/Images/landing-page-4.png");
   background-size: cover;
