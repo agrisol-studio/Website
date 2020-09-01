@@ -44,6 +44,10 @@ body {
   font-size: 1.3rem;
 }
 
+a:hover {
+  color: white;
+}
+
 .agrisolName {
   font-family: 'Bebas Neue';
   font-size: 10vw;
@@ -149,6 +153,7 @@ body {
   background-image: url("../../Content/Images/studio.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .brandLogo {
@@ -181,5 +186,24 @@ body {
   color: #005750;
   font-size: 0.8rem;
   letter-spacing: 0.07rem;
+}
+
+#contact-tabs .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #93A3A1;
+  letter-spacing: 0.06rem;
+  border-bottom: 2px solid #93A3A1;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+#contact-tabs .nav-link.active {
+  background-color: transparent;
+  border-color: white;
+  color: white;
 }
 /*# sourceMappingURL=base.css.map */

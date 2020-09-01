@@ -1,0 +1,22 @@
+#contact-tabs {
+
+    .nav-link {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.3rem;
+        font-style: italic;
+        color: $green-1;
+        letter-spacing: 0.06rem;
+        border-bottom: 2px solid $green-1;
+        padding-bottom:15px;
+        padding-top:15px;
+        font-weight:normal;
+        border-radius: 0;
+
+    }
+
+    .nav-link.active{
+        background-color: transparent;
+        border-color:white;
+        color:white;
+    }
+}
