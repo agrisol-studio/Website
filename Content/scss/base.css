@@ -206,4 +206,23 @@ a:hover {
   border-color: white;
   color: white;
 }
+
+footer {
+  background-color: #93A3A1;
+  height: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #005750;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 15px;
+}
+
+.bookmark:before {
+  display: block;
+  content: " ";
+  height: 80px;
+  margin-top: -80px;
+}
 /*# sourceMappingURL=base.css.map */

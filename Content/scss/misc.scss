@@ -1,0 +1,25 @@
+footer{
+    background-color: $green-1;
+    height: 50px;
+    justify-content: center;
+    color: #005750;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+
+//to fix navbar overlap for scrollspy
+//see http://nicolasgallagher.com/jump-links-and-viewport-positioning/demo/
+.bookmark:before
+{
+	display:block;
+	content:" ";
+	height:80px;
+	margin-top:-80px;
+}
+
+//debug
+
+// [class*="col"] {
+//     border:1px solid magenta
+// }
