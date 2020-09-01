@@ -53,14 +53,12 @@ a:hover {
   font-size: 10vw;
   color: white;
   letter-spacing: 2vw;
-  margin-right: -2vw;
 }
 
 @media (min-width: 992px) {
   .agrisolName {
     font-size: 6.5rem;
     letter-spacing: 2.5rem;
-    margin-right: -2.5rem;
   }
 }
 

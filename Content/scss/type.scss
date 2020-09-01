@@ -54,12 +54,10 @@ a:hover{
     font-size:10vw;
     color:white;
     letter-spacing: 2vw;
-    margin-right:-2vw; //to remove space after last letter
 
     @media (min-width: 992px) {
         font-size:6.5rem;
         letter-spacing: 2.5rem;
-        margin-right:-2.5rem; //to remove space after last letter
       }
 }
 
