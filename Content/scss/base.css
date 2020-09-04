@@ -64,14 +64,26 @@ a:hover {
 
 .agrisolSlogan {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1vw;
-  letter-spacing: 0.1vw;
+  font-size: 1.1rem;
+  letter-spacing: 0.06rem;
   color: white;
 }
 
 @media (min-width: 992px) {
   .agrisolSlogan {
     font-size: 1.3rem;
+    letter-spacing: 0.06rem;
+  }
+}
+
+.agrisolDescription {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+@media (min-width: 992px) {
+  .agrisolDescription {
+    font-size: 1.25rem;
     letter-spacing: 0.06rem;
   }
 }
@@ -224,5 +236,9 @@ footer {
   content: " ";
   height: 80px;
   margin-top: -80px;
+}
+
+.border-red {
+  border: 1px solid red;
 }
 /*# sourceMappingURL=base.css.map */

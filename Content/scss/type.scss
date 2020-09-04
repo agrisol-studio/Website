@@ -64,14 +64,25 @@ a:hover{
 .agrisolSlogan
 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1vw;
-    letter-spacing: 0.1vw;
+    font-size: 1.1rem;
+    letter-spacing: 0.06rem;
     color:white;
 
     @media (min-width: 992px) {
         font-size:1.3rem; //20
         letter-spacing: 0.06rem; //1
       }
+}
+
+.agrisolDescription{
+    font-size:1rem;
+    letter-spacing: 0.05rem;
+    
+    @media (min-width: 992px) 
+    {
+        font-size:1.25rem; //20
+        letter-spacing: 0.06rem; //1
+    }
 }
 
 .fold-heading {
