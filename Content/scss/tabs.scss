@@ -2,15 +2,25 @@
 
     .nav-link {
         font-family: 'Open Sans', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-style: italic;
         color: $green-1;
-        letter-spacing: 0.06rem;
+        letter-spacing: 0.03rem;
         border-bottom: 2px solid $green-1;
-        padding-bottom:15px;
-        padding-top:15px;
+        padding-bottom:10px;
+        padding-top:10px;
+        padding-left:0.5rem;
+        padding-right:0.5rem;
         font-weight:normal;
         border-radius: 0;
+
+        @media (min-width: 576px) 
+    {
+        font-size: 1.3rem;
+        letter-spacing: 0.06rem;
+        padding-bottom:15px;
+        padding-top:15px;
+    }
 
     }
 
