@@ -28,6 +28,11 @@ body {
   font-weight: 600;
 }
 
+.text-sb {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 .text-bi {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -49,7 +54,7 @@ a:hover {
 }
 
 .agrisolName {
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 10vw;
   color: white;
   letter-spacing: 2vw;
@@ -170,12 +175,6 @@ a:hover {
 
 .img-container-2 {
   background-image: url("../../Content/Images/23-smaller.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.img-container-8 {
-  background-image: url("../../Content/Images/values.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
