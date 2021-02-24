@@ -202,11 +202,11 @@ a:hover {
   margin-top: -11px;
 }
 
-#theme .nav-item {
+#theme .nav-link {
   border: 2px solid transparent;
 }
 
-#theme .nav-item.active {
+#theme .nav-link.active {
   border: 2px solid #005750;
 }
 

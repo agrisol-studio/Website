@@ -11,17 +11,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="Content/Images/logo-colored65.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Content/scss/base.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <title>Agrisol</title>
   </head>
-  <body id="theme">
+  <body id="theme"  class="position-relative" data-spy="scroll" data-target="#navbar-example2" data-offset="70">
     <div class="container-fluid">
       <div class="row fixed-top bg-white">
         <div class="offset-xl-1 col-xl-10 col-12">
           
-        <nav class="navbar navbar-expand-lg navbar-light"> <!--TODO: all classes necessary? -->
+        <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light"> <!--TODO: all classes necessary? -->
           <a class="navbar-brand" href="#">
             <div class="brandLogo d-flex align-items-end">
               <img src="Content/Images/logo-colored65.png" class="img-fluid"/>
@@ -37,14 +37,17 @@
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#whyAgrisol">WHY AGRISOL</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#whyAgrisol">WHY AGRISOL</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#ourStory">OUR STORY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ourProduct">OUR PRODUCT</a>
+                <a class="nav-link" href="#ourProduct">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ourServices">SERVICES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team">THE TEAM</a>
@@ -62,381 +65,290 @@
 
         </div>
       </div>
-      
-      <div class="fold-1" style="margin-top:80px;">
-        <div class="row">
-          <div class="col-12 img-container-1 text-center py-5">
-            <div class="content" style="margin-top:80px; margin-bottom:80px;">
-            <div class="row justify-content-center">
-              <div class="col-8 col-lg-6">
-                <img src="Content/Images/website-header-12-2.svg" class="img-fluid" style="max-height:300px;">
+
+      <div>
+        <div class="fold-1" style="margin-top:80px;">
+          <div class="row">
+            <div class="col-12 img-container-1 text-center py-5">
+              <div class="content" style="margin-top:80px; margin-bottom:80px;">
+              <div class="row justify-content-center">
+                <div class="col-8 col-lg-6">
+                  <img src="Content/Images/website-header-12-2.svg" class="img-fluid" style="max-height:300px;">
+                </div>
               </div>
-            </div>
-                <div class="agrisolSlogan py-3">
-                  <p style="font-style:italic;">A Sustainable Future</p>
-                  <p>-</p>
-                <div class="agrisolDescription">
-                  <p>We give independent advice to the farmer to help him to farm sustainable and mitigate his risks.</p>
-                  <p>No product sales, Sustainable, Scientific, Accessible, Understandable, Environmental friendly.</p>
+                  <div class="agrisolSlogan py-3">
+                    <p style="font-style:italic;">A Sustainable Future</p>
+                    <p>-</p>
+                  <div class="agrisolDescription">
+                    <p>We give independent advice to the farmer to help him to farm sustainable and mitigate his risks.</p>
+                    <p>No product sales, Sustainable, Scientific, Accessible, Understandable, Environmental friendly.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-
-      <div id="whyAgrisol" class="fold-2 bookmark">
-        <div class="row agr-bg-grey">
-          <div class="block-l col-12 offset-sm-1 col-sm-10 col-xl-4 py-3 py-sm-5">
-            <div class="fold-heading pb-1 pb-sm-5">WHY AGRISOL?</div>
-            <div class="rowText">
-              <p>Agriculture is a science, and we apply it to best fit and complement <span style="font-style:italic">your</span> way of farming. Unfortunately, the industry leads us to believe that there might be a bottled or bagged solution for every agricultural problem. Alternatively, Agrisol first and foremost focuses on the basics: understanding and improving the health of our soil.</p>
-              <p style="font-weight:700">Agrisol cares for our farmers.</p>
-              <p>On top of that, we also understand agricultural science, and when we say science, we really mean <span style="font-style:italic; font-weight:700">soil</span>.</p>
-              <p>Plants don’t need chemicals to grow, what they need is fertile soil. Through a sophisticated process of sampling and information gathering, Agrisol takes the guesswork out of natural growth by maximizing the fertility of the soil, while minimising the inherent risk of farming. We do this in close partnership with farmers, walking alongside them every step of the way by means of our mobile-based platform, which is as effective as it is easy to understand.</p>
-              <p>In short, Agrisol makes sure that the soil in which you plant, grow and harvest your crops will be all the more natural, sustainable, and above all, healthy.</p>
+        <div id="whyAgrisol" class="fold-2 bookmark">
+          <div class="row agr-bg-grey">
+            <div class="block-l col-12 offset-sm-1 col-sm-10 col-xl-4 py-3 py-sm-5">
+              <div class="fold-heading pb-1 pb-sm-5">WHY AGRISOL?</div>
+              <div class="rowText">
+                <p>Agriculture is a science, and we apply it to best fit and complement <span style="font-style:italic">your</span> way of farming. Unfortunately, the industry leads us to believe that there might be a bottled or bagged solution for every agricultural problem. Alternatively, Agrisol first and foremost focuses on the basics: understanding and improving the health of our soil.</p>
+                <p style="font-weight:700">Agrisol cares for our farmers.</p>
+                <p>On top of that, we also understand agricultural science, and when we say science, we really mean <span style="font-style:italic; font-weight:700">soil</span>.</p>
+                <p>Plants don’t need chemicals to grow, what they need is fertile soil. Through a sophisticated process of sampling and information gathering, Agrisol takes the guesswork out of natural growth by maximizing the fertility of the soil, while minimising the inherent risk of farming. We do this in close partnership with farmers, walking alongside them every step of the way by means of our mobile-based platform, which is as effective as it is easy to understand.</p>
+                <p>In short, Agrisol makes sure that the soil in which you plant, grow and harvest your crops will be all the more natural, sustainable, and above all, healthy.</p>
+              </div>
             </div>
+            <div class="offset-1 col-6 img-container-2 d-none d-xl-block"></div>
           </div>
-          <div class="offset-1 col-6 img-container-2 d-none d-xl-block"></div>
         </div>
-      </div>
-
-      <div id="ourStory" class="fold-3 bookmark">
-        <div class="row">
-          <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
-            <div class="fold-heading  pb-1 pb-sm-5 text-right">OUR STORY</div>
-            <div class="rowHeading">OUR PAST</div>
-            <div class="rowText rtl">
-              <p>
-                Our company was founded in 2010 by our current CEO, GP Schoeman. Initially running the
-                business as a solo entrepreneur, it quickly scaled to what we now know as Agrisol. At first all our
-                data processing was done via a collection of complicated digital spreadsheets. Fairly quickly it
-                became apparent that Agrisol was growing beyond the capacity of our current technology, and
-                that we needed to develop our own software solution to better serve our expanding client base<span class="float-right">.</span>
-              </p>
-              <p>Early in 2014 Agrisol contracted Solution Server to co-develop and create a custom application for our unique business case. After an ongoing successful relationship, Solution Server amalgamated with Agrisol in November 2016<span class="float-right">.</span></p>
-            </div>
-              <div class="rowHeading mt-5">OUR PRESENT</div>
+        <div id="ourStory" class="fold-3 bookmark">
+          <div class="row">
+            <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
+              <div class="fold-heading  pb-1 pb-sm-5 text-right">OUR STORY</div>
+              <div class="rowHeading">OUR PAST</div>
               <div class="rowText rtl">
                 <p>
-                    We are now in the privileged position to have a dedicated in-house software development team,
-                    that not only maintains and services our needs, but also continues to innovate new technological
-                    solutions on behalf of our customers<span class="float-right">.</span>
+                  Our company was founded in 2010 by our current CEO, GP Schoeman. Initially running the
+                  business as a solo entrepreneur, it quickly scaled to what we now know as Agrisol. At first all our
+                  data processing was done via a collection of complicated digital spreadsheets. Fairly quickly it
+                  became apparent that Agrisol was growing beyond the capacity of our current technology, and
+                  that we needed to develop our own software solution to better serve our expanding client base<span class="float-right">.</span>
                 </p>
-                <p>Agrisol leads the way locally and internationally when it comes to our industry and our particular knowledge base. We curate a vast network of agricultural experts, and are championing the case of our farmers, as we are expanding our own footprint<span class="pull-right">.</span></p>
+                <p>Early in 2014 Agrisol contracted Solution Server to co-develop and create a custom application for our unique business case. After an ongoing successful relationship, Solution Server amalgamated with Agrisol in November 2016<span class="float-right">.</span></p>
+              </div>
+                <div class="rowHeading mt-5">OUR PRESENT</div>
+                <div class="rowText rtl">
+                  <p>
+                      We are now in the privileged position to have a dedicated in-house software development team,
+                      that not only maintains and services our needs, but also continues to innovate new technological
+                      solutions on behalf of our customers<span class="float-right">.</span>
+                  </p>
+                  <p>Agrisol leads the way locally and internationally when it comes to our industry and our particular knowledge base. We curate a vast network of agricultural experts, and are championing the case of our farmers, as we are expanding our own footprint<span class="pull-right">.</span></p>
+              </div>
+              <div class="rowHeading mt-5">OUR FUTURE</div>
+              <div class="rowText rtl">
+                  <p>
+                      Whatever the future holds, we will stay focused on the clear goals and vision that has guided
+                      Agrisol towards becoming the industry leader that it is today, namely staying focused on our
+                      research, spearheading innovative thinking, and continuing to translate complex data into
+                      understandable information for those that need it most - our farmers<span class="float-right">.</span>
+                  </p>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <img src="Content/Images/1.png" class="img-fluid" width="500">
+                </div>
+                <div class="col-4">
+                  <img src="Content/Images/20.png" class="img-fluid" width="500">
+                </div>
+                <div class="col-4">
+                  <img src="Content/Images/8.png" class="img-fluid" width="500">
+                </div>
+              </div>
+        
             </div>
-            <div class="rowHeading mt-5">OUR FUTURE</div>
-            <div class="rowText rtl">
+        
+          </div>
+        </div>
+        <div id="ourProduct" class="fold-4 bookmark">
+          <div class="row agr-bg-primary">
+            <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
+              <div class="fold-heading pb-1 pb-sm-5 text-wh">OUR PRODUCT</div>
+              <div class="rowText text-wh">
                 <p>
-                    Whatever the future holds, we will stay focused on the clear goals and vision that has guided
-                    Agrisol towards becoming the industry leader that it is today, namely staying focused on our
-                    research, spearheading innovative thinking, and continuing to translate complex data into
-                    understandable information for those that need it most - our farmers<span class="float-right">.</span>
-                </p>
+                  Agrisol developed an advanced geographical information system which are continually being
+                  improved and expanded on. After we collect grid samples, we extract other relevant information
+                  like physical soil data, satellite images and weather statistics for every field, enabling us to give
+                  the absolute best and up to date recommendations to our customers. To make the data more
+                  accessible to the farmer and his contributors, we have developed a digital environment where
+                  every user has immediate access to the most relevant data on his mobile device or desktop.
+              </p>
+              <br />
+              <p>
+                  Built into this dynamic digital environment, is the ability to invite external collaborators or service
+                  providers. With the relevant farmer’s permission, they can then have access to the most recent
+                  data, enabling them to customise and target their services and products specifically for our
+                  customers. Typical service providers may include companies that provide agricultural resources
+                  like fertilizer, lime and chemicals, or even business services like financing or insurance.
+              </p>
+              <br />
+              <p>
+                  This cutting edge development will ensure that the farmer has continuous access to a single
+                  platform, that instantly connects him with all the relevant products and services he might need,
+                  already tailored to his specific needs.
+              </p>
+            </div>
+        
+        
+            </div>
+        
+          </div>
+        </div>
+        <div id="ourServices" class="fold-5 bookmark">
+          <div class="row">
+            <div class="col-12 offset-sm-1 col-sm-10 py-3 py-lg-5">
+              <div class="fold-heading-2 text-center">
+                <span class="text-u">Our Services</span>
+              </div>
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col text-center mt-5 mt-md-3 mt-lg-5">
+                  <div class="row justify-content-center">
+                    <div class="col-2 col-md-3 col-lg-8">
+                        <img src="Content/Images/sampling.png" width="70" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
+                    <p class="mb-1 mb-lg-3">
+                    Precision grid soil nutrient sampling
+                    </p>
+                    <p class="mb-1 mb-lg-3">...</p>
+                  </div>
+                  <p class="rowText text-center">Much more comprehensive than what is currently available in the market, we supply the farmer with an in-depth report on his farm. Based on a complete set of prescription charts, the report is designed to be completely comprehensible, and enable the farmer to instantly understand his own land.</p>
+                </div>
+                <div class="col text-center  mt-1 mt-lg-5">
+                  <div class="row justify-content-center">
+                    <div class="col-2 col-md-3 col-lg-8">
+                      <img src="Content/Images/leaf.png" width="70" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
+                    <p class="mb-1 mb-lg-3">
+                    Leaf Analysis
+                    </p>
+                    <p class="mb-1 mb-lg-3">...</p>
+                  </div>
+                  <p class="rowText text-center">A full interpretation of the leaf analysis effectively positions
+                    the farmer to personally monitor his plant nutrient levels.</p>
+                </div>
+                <div class="col text-center  mt-1 mt-lg-5">
+                  <div class="row justify-content-center">
+                    <div class="col-2 col-md-3 col-lg-8">
+                      <div style="height:70px; padding-top:30px;">
+                        <img src="Content/Images/soil.png" width="70" class="img-fluid"> <!--TODO: ask for new img with correct y-padding-->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
+                    <p class="mb-1 mb-lg-3">
+                    Soil physical mapping
+                    </p>
+                    <p class="mb-1 mb-lg-3">...</p>
+                  </div>
+                  <p class="rowText text-center">We supply high definition and detailed ground mapping charts,
+                    which are indispensable in determining plant potential and varying planting, as well as planning for
+                    effective drainage.</p>
+                </div>
+                <div class="col text-center  mt-1 mt-lg-5">
+                  <div class="row justify-content-center">
+                    <div class="col-2 col-md-3 col-lg-8">
+                      <img src="Content/Images/satellite.png" width="70" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
+                    <p class="mb-1 mb-lg-3">
+                    Satellite imaging
+                    </p>
+                    <p class="mb-1 mb-lg-3">...</p>
+                  </div>
+                  <p class="rowText text-center">We update the relevant satellite imagery
+                    on a regular basis, ensuring continuity in both planning and production.</p>
+                </div>
+                <div class="col text-center  mt-1 mt-lg-5">
+                  <div class="row justify-content-center">
+                    <div class="col-2 col-md-3 col-lg-8">
+                      <img src="Content/Images/mobile.png" width="70" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
+                    <p class="mb-1 mb-lg-3">
+                    Mobile Application
+                  </p>
+                  <p class="mb-1 mb-lg-3">...</p>
+                  </div>
+                  <p class="rowText text-center">Our mobile application ensures greater access
+                    to the information, and illustrates the data in an understandable and mobile friendly format.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fold-6 bookmark">
+          <div class="row agr-bg-primary">
+            <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
+              <div class="fold-heading pb-1 pb-sm-5 text-wh">ABOUT US</div>
+              <div class="rowText text-wh">
+                <div>
+                  Here are a couple of things that we definitely don’t do:
+                  <p class="mb-3">
+                      <span class="text-gld text-b">We don’t sell fertilizer, lime and chemicals.</span> Never have, never will.
+                  </p>
+                  <p class="mb-3">
+                      <span class="text-gld text-b">We don’t report to some controlling body who doesn’t have the farmer’s interests at heart.</span>
+                      As your partner in agriculture, Agrisol is fully independent.
+                  </p>
+                  <p class="mb-3">
+                      <span class="text-gld text-b">We don’t introduce foreign elements into the ground just for the sake of it.</span> Only where
+                      there is a very real shortage, do we supplement the fertility of the soil with necessary nutrients
+                      and enhancers.
+                  </p>
+                  <p class="mb-3">
+                      <span class="text-gld text-b">We don’t guess.</span> All our recommendations are based on technologically surveyed physical,
+                      scientific and other relevant data sets, finding correlations with the unique plant variant, and
+                      suggesting the best course of action.
+                  </p>
+                  <p class="mb-3">
+                      <span class="text-gld text-b">We never work alone.</span> We believe in partnering. The farmer is our true collaborator, and for
+                      him or her to be involved in the process is a big part of our success. In fact, its one of the main
+                      reasons why we love what we do.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="team" class="fold-7 bookmark">
+          <div class="row">
+            <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
+              <div class="fold-heading-2 pb-1 pb-sm-5">
+                <span class="text-u">Meet The Team</span>
+              </div>
+              <div class="rowText">
+                <p>
+                  The Agrisol team is a passionate group of motivated individuals, whose sense of excellence
+                  absolutely sets them apart when it comes to innovation and service delivery. Our greater team
+                  breaks up into smaller units that specialise in their respective areas of expertise, namely:
+              </p>
+              <div class="mt-4">
+                  <ol class="hidden-xs">
+                      <li>Agronomy;</li>
+                      <li>Software development;</li>
+                      <li>Marketing & soil sampling;</li>
+                      <li>Technical system support.</li>
+                  </ol>
+              </div>
+              <p class="mt-4">
+                  Between all our individual members we have accumulated vast experience in not only the
+                  technological side of our business, but also in dealing with the local farm community on a
+                  personal level.
+              </p>
             </div>
             <div class="row">
-              <div class="col-4">
-                <img src="Content/Images/1.png" class="img-fluid" width="500">
-              </div>
-              <div class="col-4">
-                <img src="Content/Images/20.png" class="img-fluid" width="500">
-              </div>
-              <div class="col-4">
-                <img src="Content/Images/8.png" class="img-fluid" width="500">
-              </div>
-            </div>
-            
-          </div>
-          
-        </div>
-      </div>
-
-      <div id="ourProduct" class="fold-4 bookmark">
-        <div class="row agr-bg-primary">
-          <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
-            <div class="fold-heading pb-1 pb-sm-5 text-wh">OUR PRODUCT</div>
-            <div class="rowText text-wh">
-              <p>
-                Agrisol developed an advanced geographical information system which are continually being
-                improved and expanded on. After we collect grid samples, we extract other relevant information
-                like physical soil data, satellite images and weather statistics for every field, enabling us to give
-                the absolute best and up to date recommendations to our customers. To make the data more
-                accessible to the farmer and his contributors, we have developed a digital environment where
-                every user has immediate access to the most relevant data on his mobile device or desktop.
-            </p>
-            <br />
-            <p>
-                Built into this dynamic digital environment, is the ability to invite external collaborators or service
-                providers. With the relevant farmer’s permission, they can then have access to the most recent
-                data, enabling them to customise and target their services and products specifically for our
-                customers. Typical service providers may include companies that provide agricultural resources
-                like fertilizer, lime and chemicals, or even business services like financing or insurance.
-            </p>
-            <br />
-            <p>
-                This cutting edge development will ensure that the farmer has continuous access to a single
-                platform, that instantly connects him with all the relevant products and services he might need,
-                already tailored to his specific needs.
-            </p>
-          </div>
-            
-            
-          </div>
-          
-        </div>
-      </div>
-
-      <div class="fold-5 bookmark">
-        <div class="row">
-          <div class="col-12 offset-sm-1 col-sm-10 py-3 py-lg-5">
-            <div class="fold-heading-2 text-center">
-              <span class="text-u">Our Services</span>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-              <div class="col text-center mt-5 mt-md-3 mt-lg-5">
-                <div class="row justify-content-center">
-                  <div class="col-2 col-md-3 col-lg-8">
-                      <img src="Content/Images/sampling.png" width="70" class="img-fluid">
-                  </div>
-                </div>
-                <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
-                  <p class="mb-1 mb-lg-3">
-                  Precision grid soil nutrient sampling
-                  </p>
-                  <p class="mb-1 mb-lg-3">...</p>
-                </div>
-                <p class="rowText text-center">Much more comprehensive than what is currently available in the market, we supply the farmer with an in-depth report on his farm. Based on a complete set of prescription charts, the report is designed to be completely comprehensible, and enable the farmer to instantly understand his own land.</p>
-              </div>
-              <div class="col text-center  mt-1 mt-lg-5">
-                <div class="row justify-content-center">
-                  <div class="col-2 col-md-3 col-lg-8">
-                    <img src="Content/Images/leaf.png" width="70" class="img-fluid">
-                  </div>
-                </div>
-                <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
-                  <p class="mb-1 mb-lg-3">
-                  Leaf Analysis
-                  </p>
-                  <p class="mb-1 mb-lg-3">...</p>
-                </div>
-                <p class="rowText text-center">A full interpretation of the leaf analysis effectively positions
-                  the farmer to personally monitor his plant nutrient levels.</p>
-              </div>
-              <div class="col text-center  mt-1 mt-lg-5">
-                <div class="row justify-content-center">
-                  <div class="col-2 col-md-3 col-lg-8">
-                    <div style="height:70px; padding-top:30px;">
-                      <img src="Content/Images/soil.png" width="70" class="img-fluid"> <!--TODO: ask for new img with correct y-padding-->
-                    </div>
-                  </div>
-                </div>
-                <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
-                  <p class="mb-1 mb-lg-3">
-                  Soil physical mapping
-                  </p>
-                  <p class="mb-1 mb-lg-3">...</p>
-                </div>
-                <p class="rowText text-center">We supply high definition and detailed ground mapping charts,
-                  which are indispensable in determining plant potential and varying planting, as well as planning for
-                  effective drainage.</p>
-              </div>
-              <div class="col text-center  mt-1 mt-lg-5">
-                <div class="row justify-content-center">
-                  <div class="col-2 col-md-3 col-lg-8">
-                    <img src="Content/Images/satellite.png" width="70" class="img-fluid">
-                  </div>
-                </div>
-                <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
-                  <p class="mb-1 mb-lg-3">
-                  Satellite imaging
-                  </p>
-                  <p class="mb-1 mb-lg-3">...</p>
-                </div>
-                <p class="rowText text-center">We update the relevant satellite imagery
-                  on a regular basis, ensuring continuity in both planning and production.</p>
-              </div>
-              <div class="col text-center  mt-1 mt-lg-5">
-                <div class="row justify-content-center">
-                  <div class="col-2 col-md-3 col-lg-8">
-                    <img src="Content/Images/mobile.png" width="70" class="img-fluid">
-                  </div>
-                </div>
-                <div class="text-gld text-sbi font-size-md text-center mt-2 mt-xl-4">
-                  <p class="mb-1 mb-lg-3">
-                  Mobile Application
-                </p>
-                <p class="mb-1 mb-lg-3">...</p>
-                </div>
-                <p class="rowText text-center">Our mobile application ensures greater access
-                  to the information, and illustrates the data in an understandable and mobile friendly format.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="fold-6 bookmark">
-        <div class="row agr-bg-primary">
-          <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
-            <div class="fold-heading pb-1 pb-sm-5 text-wh">ABOUT US</div>
-            <div class="rowText text-wh">
-              <div>
-                Here are a couple of things that we definitely don’t do:
-
-                <p class="mb-3">
-                    <span class="text-gld text-b">We don’t sell fertilizer, lime and chemicals.</span> Never have, never will.
-                </p>
-                <p class="mb-3">
-                    <span class="text-gld text-b">We don’t report to some controlling body who doesn’t have the farmer’s interests at heart.</span>
-                    As your partner in agriculture, Agrisol is fully independent.
-                </p>
-                <p class="mb-3">
-                    <span class="text-gld text-b">We don’t introduce foreign elements into the ground just for the sake of it.</span> Only where
-                    there is a very real shortage, do we supplement the fertility of the soil with necessary nutrients
-                    and enhancers.
-                </p>
-                <p class="mb-3">
-                    <span class="text-gld text-b">We don’t guess.</span> All our recommendations are based on technologically surveyed physical,
-                    scientific and other relevant data sets, finding correlations with the unique plant variant, and
-                    suggesting the best course of action.
-                </p>
-                <p class="mb-3">
-                    <span class="text-gld text-b">We never work alone.</span> We believe in partnering. The farmer is our true collaborator, and for
-                    him or her to be involved in the process is a big part of our success. In fact, its one of the main
-                    reasons why we love what we do.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="team" class="fold-7 bookmark">
-        <div class="row">
-          <div class="col-12 offset-sm-1 col-sm-10 py-3 py-sm-5">
-            <div class="fold-heading-2 pb-1 pb-sm-5">
-              <span class="text-u">Meet The Team</span>
-            </div>
-            <div class="rowText">
-              <p>
-                The Agrisol team is a passionate group of motivated individuals, whose sense of excellence
-                absolutely sets them apart when it comes to innovation and service delivery. Our greater team
-                breaks up into smaller units that specialise in their respective areas of expertise, namely:
-            </p>
-            <div class="mt-4">
-                <ol class="hidden-xs">
-                    <li>Agronomy;</li>
-                    <li>Software development;</li>
-                    <li>Marketing & soil sampling;</li>
-                    <li>Technical system support.</li>
-                </ol>
-            </div>
-            <p class="mt-4">
-                Between all our individual members we have accumulated vast experience in not only the
-                technological side of our business, but also in dealing with the local farm community on a
-                personal level.
-            </p>
-          </div>
-          <div class="row">
-            <div class="col-md-3 col-sm-6 col-12 pb-3">
-              <div class="">
-                  <div class="row justify-content-center">
-                    <div class="col-6 col-sm-12">
-                      <img src="Content/Images/GP.jpg" class="img-fluid" />
-                    </div>
-                  </div>
-                  <div class="" >
-                      <div class="text-gld text-sbi font-size-md mt-4">GP Schoeman</div>
-                      <div class="text-b mt-4">CEO</div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">c: </div>
-                          <div class="col-8 col-sm-10">
-                            <span>076 775 0359</span>
-                          </div>
-                      </div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">t: </div>
-                          <div class="col-8 col-sm-10">018 297 8516</div>
-                      </div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">e: </div>
-                          <div class="col-8 col-sm-10">gp.schoeman@agrisol.co.za</div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-
-            
-            <div class="col-md-3 col-sm-6 col-12 pb-3">
-              <div class="">
-                  <div class="row justify-content-center">
-                    <div class="col-sm-12 col-6">
-                      <img src="Content/Images/Anthonie.jpg" class="img-fluid" />
-                    </div>
-                  </div>
-                  <div class="" >
-                      <div class="text-gld text-sbi font-size-md mt-4">Anthonie de Klerk</div>
-                      <div class="text-b mt-4">Studio Lead</div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">c: </div>
-                          <div class="col-8 col-sm-10">
-                            <span>082 859 5852</span>
-                          </div>
-                      </div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">t: </div>
-                          <div class="col-8 col-sm-10">018 297 8516</div>
-                      </div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">e: </div>
-                          <div class="col-8 col-sm-10">anthonie.deklerk@agrisol.co.za</div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-12 pb-3">
-              <div class="">
-                  <div class="row justify-content-center">
-                    <div class="col-sm-12 col-6">
-                      <img src="Content/Images/Hanke.jpg" class="img-fluid" />
-                    </div>
-                  </div>
-                  <div class="" >
-                      <div class="text-gld text-sbi font-size-md mt-4">Hanke du Plessis</div>
-                      <div class="text-b mt-4">Operations Manager</div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">c: </div>
-                          <div class="col-8 col-sm-10">
-                            <span>063 694 9828</span>
-                          </div>
-                      </div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">t: </div>
-                          <div class="col-8 col-sm-10">018 297 8516</div>
-                      </div>
-                      <div class="row mt-4">
-                          <div class="col-1 col-sm-2 text-bi">e: </div>
-                          <div class="col-8 col-sm-10">hanke.duplessis@agrisol.co.za</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
               <div class="col-md-3 col-sm-6 col-12 pb-3">
                 <div class="">
                     <div class="row justify-content-center">
-                      <div class="col-sm-12 col-6">
-                        <img src="Content/Images/Christiaan.jpg" class="img-fluid" />
+                      <div class="col-6 col-sm-12">
+                        <img src="Content/Images/GP.jpg" class="img-fluid" />
                       </div>
                     </div>
                     <div class="" >
-                        <div class="text-gld text-sbi font-size-md mt-4">Christiaan Liebenberg</div>
-                        <div class="text-b mt-4">Marketing Manager</div>
+                        <div class="text-gld text-sbi font-size-md mt-4">GP Schoeman</div>
+                        <div class="text-b mt-4">CEO</div>
                         <div class="row mt-4">
                             <div class="col-1 col-sm-2 text-bi">c: </div>
                             <div class="col-8 col-sm-10">
-                              <span>061 020 1234</span>
+                              <span>076 775 0359</span>
                             </div>
                         </div>
                         <div class="row mt-4">
@@ -445,217 +357,288 @@
                         </div>
                         <div class="row mt-4">
                             <div class="col-1 col-sm-2 text-bi">e: </div>
-                            <div class="col-8 col-sm-10">christiaan.liebenberg@agrisol.co.za</div>
+                            <div class="col-8 col-sm-10">gp.schoeman@agrisol.co.za</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        
+              <div class="col-md-3 col-sm-6 col-12 pb-3">
+                <div class="">
+                    <div class="row justify-content-center">
+                      <div class="col-sm-12 col-6">
+                        <img src="Content/Images/Anthonie.jpg" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="" >
+                        <div class="text-gld text-sbi font-size-md mt-4">Anthonie de Klerk</div>
+                        <div class="text-b mt-4">Studio Lead</div>
+                        <div class="row mt-4">
+                            <div class="col-1 col-sm-2 text-bi">c: </div>
+                            <div class="col-8 col-sm-10">
+                              <span>082 859 5852</span>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-1 col-sm-2 text-bi">t: </div>
+                            <div class="col-8 col-sm-10">018 297 8516</div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-1 col-sm-2 text-bi">e: </div>
+                            <div class="col-8 col-sm-10">anthonie.deklerk@agrisol.co.za</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-12 pb-3">
+                <div class="">
+                    <div class="row justify-content-center">
+                      <div class="col-sm-12 col-6">
+                        <img src="Content/Images/Hanke.jpg" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="" >
+                        <div class="text-gld text-sbi font-size-md mt-4">Hanke du Plessis</div>
+                        <div class="text-b mt-4">Operations Manager</div>
+                        <div class="row mt-4">
+                            <div class="col-1 col-sm-2 text-bi">c: </div>
+                            <div class="col-8 col-sm-10">
+                              <span>063 694 9828</span>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-1 col-sm-2 text-bi">t: </div>
+                            <div class="col-8 col-sm-10">018 297 8516</div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-1 col-sm-2 text-bi">e: </div>
+                            <div class="col-8 col-sm-10">hanke.duplessis@agrisol.co.za</div>
                         </div>
                     </div>
                   </div>
                 </div>
+                <div class="col-md-3 col-sm-6 col-12 pb-3">
+                  <div class="">
+                      <div class="row justify-content-center">
+                        <div class="col-sm-12 col-6">
+                          <img src="Content/Images/Christiaan.jpg" class="img-fluid" />
+                        </div>
+                      </div>
+                      <div class="" >
+                          <div class="text-gld text-sbi font-size-md mt-4">Christiaan Liebenberg</div>
+                          <div class="text-b mt-4">Marketing Manager</div>
+                          <div class="row mt-4">
+                              <div class="col-1 col-sm-2 text-bi">c: </div>
+                              <div class="col-8 col-sm-10">
+                                <span>061 020 1234</span>
+                              </div>
+                          </div>
+                          <div class="row mt-4">
+                              <div class="col-1 col-sm-2 text-bi">t: </div>
+                              <div class="col-8 col-sm-10">018 297 8516</div>
+                          </div>
+                          <div class="row mt-4">
+                              <div class="col-1 col-sm-2 text-bi">e: </div>
+                              <div class="col-8 col-sm-10">christiaan.liebenberg@agrisol.co.za</div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="fold-8 bookmark">
-          <div class="row">
-              <img class="img-fluid" src="Content/Images/values-icons.png" style="width:100vw">
-          </div>
-      </div>
-
-      <div class="fold-9 bookmark">
-        <div class="row agr-bg-grey">
-          <div class="col-xl-6 img-container-9 d-none d-xl-block"></div>
-          <div class="block-r offset-xl-1 col-xl-4 offset-sm-1 col-sm-10 py-3 py-sm-5">
-            <div class="fold-heading-2 pb-1 pb-sm-5">
-              <span class="text-u">The Studio</span>
+        <div class="fold-8 bookmark">
+            <div class="row">
+                <img class="img-fluid" src="Content/Images/values-icons.png" style="width:100vw">
             </div>
-            <div class="rowText">
-              <p>
-                Our extensive experience and unique methodology is what distinguishes Agrisol in the
-                marketplace. With more than 17 years of development experience, the Studio is Agrisol's software
-                development department. Having a dedicated in-house development studio, enables us to quickly
-                adapt and create, giving Agrisol the ability to cater to the farmer's specific needs. Needless to say,
-                the Studio is absolutely passionate about craftsmanship and people.
-              </p>
-              <br />
-              <p>
-                Additionally, we offer holiday work opportunities as well as internships for students and
-                graduates. We invite any passionate, experienced or up-and-coming craftsman to join our Studio
-                team.
-              </p>
+        </div>
+        <div class="fold-9 bookmark">
+          <div class="row agr-bg-grey">
+            <div class="col-xl-6 img-container-9 d-none d-xl-block"></div>
+            <div class="block-r offset-xl-1 col-xl-4 offset-sm-1 col-sm-10 py-3 py-sm-5">
+              <div class="fold-heading-2 pb-1 pb-sm-5">
+                <span class="text-u">The Studio</span>
+              </div>
+              <div class="rowText">
+                <p>
+                  Our extensive experience and unique methodology is what distinguishes Agrisol in the
+                  marketplace. With more than 17 years of development experience, the Studio is Agrisol's software
+                  development department. Having a dedicated in-house development studio, enables us to quickly
+                  adapt and create, giving Agrisol the ability to cater to the farmer's specific needs. Needless to say,
+                  the Studio is absolutely passionate about craftsmanship and people.
+                </p>
+                <br />
+                <p>
+                  Additionally, we offer holiday work opportunities as well as internships for students and
+                  graduates. We invite any passionate, experienced or up-and-coming craftsman to join our Studio
+                  team.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div id="contact" class="fold-10 bookmark">
-        <div class="row agr-bg-primary py-3">
-          <div class="col offset-xl-1 col-xl-10">
-            <div class="row">
-              <div class="col-9 col-xl-11">
-                <div class="fold-heading pb-1 pb-sm-5 text-wh">GET IN TOUCH</div>
+        <div id="contact" class="fold-10 bookmark">
+          <div class="row agr-bg-primary py-3">
+            <div class="col offset-xl-1 col-xl-10">
+              <div class="row">
+                <div class="col-9 col-xl-11">
+                  <div class="fold-heading pb-1 pb-sm-5 text-wh">GET IN TOUCH</div>
+                </div>
+                <div class="col-3 col-xl-1">
+                  <img src="Content/Images/stamp-logo.png" width="100" class="img-fluid">
+                </div>
               </div>
-              <div class="col-3 col-xl-1">
-                <img src="Content/Images/stamp-logo.png" width="100" class="img-fluid">
-              </div>
+              <div class="row">
+                  <div class="col-5 col-sm-6 col-md-4">
+                    <div class="nav flex-column nav-pills" id="contact-tabs" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link active pt-0" id="headOffice-tab" data-toggle="pill" href="#headOffice" role="tab" aria-controls="headOffice" aria-selected="true">Head Office</a>
+                      <a class="nav-link" id="accounts-tab" data-toggle="pill" href="#accounts" role="tab" aria-controls="accounts" aria-selected="false">Accounts</a>
+                      <a class="nav-link" id="syssupport-tab" data-toggle="pill" href="#syssupport" role="tab" aria-controls="syssupport" aria-selected="false">System support</a>
+                      <a class="nav-link" id="marketing-tab" data-toggle="pill" href="#marketing" role="tab" aria-controls="marketing" aria-selected="false">Marketing</a>
+                      <a class="nav-link" id="ourFieldTeam-tab" data-toggle="pill" href="#ourFieldTeam" role="tab" aria-controls="ourFieldTeam" aria-selected="false">Our field team</a>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-8 text-wh">
+                    <div class="tab-content" id="tabContent">
+                      <div class="tab-pane fade show active" id="headOffice" role="tabpanel" aria-labelledby="headOffice-tab">
+                        <!--HEAD OFFICE-->
+                        <div class="text-b mb-2 mb-sm-4">Head Office</div>
+                        <div>(018) - 297 8516 / 063 694 9828</div>
+                        <div class="text-b  mt-4 mt-sm-5 mb-2 mb-sm-4">General enquiries</div>
+                        <div>
+                            <a class="text-wh" href="mailto:admin@agrisol.co.za">admin@agrisol.co.za</a>
+                        </div>
+                        <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">Physical Address</div>
+                        <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
+                      </div>
+                      <!--ACCOUNTS-->
+                      <div class="tab-pane fade" id="accounts" role="tabpanel" aria-labelledby="accounts-tab">
+                        <div class="text-b mb-2 mb-sm-4">Accounts</div>
+                        <div>(018) - 297 8516 / 063 694 9828</div>
+                        <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">General enquiries</div>
+                        <div>
+                            <a class="text-wh" href="mailto:support@agrisol.co.za">support@agrisol.co.za</a>
+                        </div>
+                        <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">Physical Address</div>
+                        <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
+                      </div>
+                      <!--TECHNICAL SUPPORT-->
+                      <div class="tab-pane fade" id="syssupport" role="tabpanel" aria-labelledby="syssupport-tab">
+                        <div class="text-b  mb-2 mb-sm-4">Technical Support</div>
+                        <div>(018) - 297 8516 / 079 710 5821</div>
+                        <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">General enquiries</div>
+                        <div>
+                            <a class="text-wh" href="mailto:support@agrisol.co.za">support@agrisol.co.za</a>
+                        </div>
+                        <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">Physical Address</div>
+                        <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
+                      </div>
+                      <!--MARKETING-->
+                      <div class="tab-pane fade" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
+                        <div class="text-b mb-2 mb-sm-4">Marketing</div>
+                        <div>(018) - 297 8516</div>
+                        <div class="text-b  mt-4 mt-sm-5 mb-2 mb-sm-4">General enquiries</div>
+                        <div>
+                            <a class="text-wh" href="mailto:admin@agrisol.co.za">admin@agrisol.co.za</a>
+                        </div>
+                        <div class="text-b  mt-4 mt-sm-5 mb-2 mb-sm-4">Physical Address</div>
+                        <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
+                      </div>
+                      <!--OUR FIELD TEAM-->
+                      <div class="tab-pane fade" id="ourFieldTeam" role="tabpanel" aria-labelledby="ourFieldTeam-tab">
+                        <div class="row">
+                          <div class="col-4">
+                            <div class="text-b mb-1 text-gld">Free State</div>
+                            <div class="mb-4">
+                              <div class="text-sb">Elrica De Necker </div>
+                              <div>082 633 6721</div>
+                              <a class="text-wh" href="mailto:elrica.denecker@agrisol.co.za">elrica.denecker@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-sb">Neels Faber  </div>
+                              <div>068 157 5511</div>
+                              <a class="text-wh" href="mailto:neels.faber@agrisol.co.za">neels.faber@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-sb">GJ Jansen van Rensburg   </div>
+                              <div>079 395 9027</div>
+                              <a class="text-wh" href="mailto:gj.jansevanrensburg@agrisol.co.za">gj.jansevanrensburg@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-b mb-1 text-gld">KwaZulu-Natal</div>
+                              <div class="text-sb">Altus Geldenhuis</div>
+                              <div>082 568 1045</div>
+                              <a class="text-wh" href="mailto:altus.geldenhuis@agrisol.co.za">altus.geldenhuis@agrisol.co.za</a>
+                            </div>
+                          </div>
+        
+        
+                          <div class="col-4">
+                            <div class="text-b mb-1 text-gld">North West</div>
+                            <div class="mb-4">
+                              <div class="text-sb">Raynard Oosthuizen</div>
+                              <div>076 841 1171</div>
+                              <a class="text-wh" href="mailto:raynard.oosthuizen@agrisol.co.za">raynard.oosthuizen@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-sb">Tharina van Zyl</div>
+                              <div>084 317 4324</div>
+                              <a class="text-wh" href="mailto:tharina.vanzyl@agrisol.co.za">tharina.vanzyl@agrisol.co.za</a>
+                            </div>
+                            <div class="text-b mb-1 text-gld">Mpumalanga</div>
+                            <div class="mb-4">
+                              <div class="text-sb">Wynand Nieuwenhuizen</div>
+                              <div>079 504 9412</div>
+                              <a class="text-wh" href="mailto:nieuwenhuizenW@agricare.co.za">nieuwenhuizenW@agricare.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-sb">Gerrit de Jager</div>
+                              <div>082 388 2176</div>
+                              <a class="text-wh" href="mailto:gelderlandbdy@gmail.com">gelderlandbdy@gmail.com</a>
+                            </div>
+        
+                          </div>
+        
+                          <div class="col-4">
+                            <div class="mb-4">
+                              <div class="text-b mb-1 text-gld">Northern Cape</div>
+                              <div class="text-sb">Hendrico Esterhuizen</div>
+                              <div>079 710 5821</div>
+                              <a class="text-wh" href="mailto: hendrico.esterhuizen@agrisol.co.za">hendrico.esterhuizen@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-b mb-1 text-gld">Western Cape</div>
+                              <div class="text-sb">Daneel du Preez</div>
+                              <div>081 041 1457</div>
+                              <a class="text-wh" href="mailto: daneel.dupreez@agrisol.co.za">daneel.dupreez@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-b mb-1 text-gld">Zambia</div>
+                              <div class="text-sb">Christiaan Liebenberg</div>
+                              <div>061 020 1234</div>
+                              <a class="text-wh" href="mailto:christiaan.liebenberg@agrisol.co.za">christiaan.liebenberg@agrisol.co.za</a>
+                            </div>
+                            <div class="mb-4">
+                              <div class="text-b mb-1 text-gld">Botswana</div>
+                              <div class="text-sb">Christiaan Liebenberg</div>
+                              <div>061 020 1234</div>
+                              <a class="text-wh" href="mailto:christiaan.liebenberg@agrisol.co.za">christiaan.liebenberg@agrisol.co.za</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
             </div>
-            <div class="row">
-                <div class="col-5 col-sm-6 col-md-4">
-                  <div class="nav flex-column nav-pills" id="contact-tabs" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active pt-0" id="headOffice-tab" data-toggle="pill" href="#headOffice" role="tab" aria-controls="headOffice" aria-selected="true">Head Office</a>
-                    <a class="nav-link" id="accounts-tab" data-toggle="pill" href="#accounts" role="tab" aria-controls="accounts" aria-selected="false">Accounts</a>
-                    <a class="nav-link" id="syssupport-tab" data-toggle="pill" href="#syssupport" role="tab" aria-controls="syssupport" aria-selected="false">System support</a>
-                    <a class="nav-link" id="marketing-tab" data-toggle="pill" href="#marketing" role="tab" aria-controls="marketing" aria-selected="false">Marketing</a>
-                    <a class="nav-link" id="ourFieldTeam-tab" data-toggle="pill" href="#ourFieldTeam" role="tab" aria-controls="ourFieldTeam" aria-selected="false">Our field team</a>
-                  </div>
-                </div>
-                <div class="col-6 col-md-8 text-wh">
-                  <div class="tab-content" id="tabContent">
-                    <div class="tab-pane fade show active" id="headOffice" role="tabpanel" aria-labelledby="headOffice-tab">
-                      <!--HEAD OFFICE-->
-                      <div class="text-b mb-2 mb-sm-4">Head Office</div>
-                      <div>(018) - 297 8516 / 063 694 9828</div>
-                      <div class="text-b  mt-4 mt-sm-5 mb-2 mb-sm-4">General enquiries</div>
-                      <div>
-                          <a class="text-wh" href="mailto:admin@agrisol.co.za">admin@agrisol.co.za</a>
-                      </div>
-                      <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">Physical Address</div>
-                      <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
-                    </div>
-                    <!--ACCOUNTS-->
-                    <div class="tab-pane fade" id="accounts" role="tabpanel" aria-labelledby="accounts-tab">
-                      <div class="text-b mb-2 mb-sm-4">Accounts</div>
-                      <div>(018) - 297 8516 / 063 694 9828</div>
-                      <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">General enquiries</div>
-                      <div>
-                          <a class="text-wh" href="mailto:support@agrisol.co.za">support@agrisol.co.za</a>
-                      </div>
-                      <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">Physical Address</div>
-                      <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
-                    </div>
-                    <!--TECHNICAL SUPPORT-->
-                    <div class="tab-pane fade" id="syssupport" role="tabpanel" aria-labelledby="syssupport-tab">
-                      <div class="text-b  mb-2 mb-sm-4">Technical Support</div>
-                      <div>(018) - 297 8516 / 079 710 5821</div>
-                      <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">General enquiries</div>
-                      <div>
-                          <a class="text-wh" href="mailto:support@agrisol.co.za">support@agrisol.co.za</a>
-                      </div>
-                      <div class="text-b  mt-4 mt-sm-5  mb-2 mb-sm-4">Physical Address</div>
-                      <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
-                    </div>
-                    <!--MARKETING-->
-                    <div class="tab-pane fade" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
-                      <div class="text-b mb-2 mb-sm-4">Marketing</div>
-                      <div>(018) - 297 8516</div>
-                      <div class="text-b  mt-4 mt-sm-5 mb-2 mb-sm-4">General enquiries</div>
-                      <div>
-                          <a class="text-wh" href="mailto:admin@agrisol.co.za">admin@agrisol.co.za</a>
-                      </div>
-                      <div class="text-b  mt-4 mt-sm-5 mb-2 mb-sm-4">Physical Address</div>
-                      <div>81 Retief street, Potchefstroom, South Africa, 2522</div>
-                    </div>
-                    <!--OUR FIELD TEAM-->
-                    <div class="tab-pane fade" id="ourFieldTeam" role="tabpanel" aria-labelledby="ourFieldTeam-tab">
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="text-b mb-1 text-gld">Free State</div>
-                          <div class="mb-4">
-                            <div class="text-sb">Elrica De Necker </div>
-                            <div>082 633 6721</div>
-                            <a class="text-wh" href="mailto:elrica.denecker@agrisol.co.za">elrica.denecker@agrisol.co.za</a>
-                          </div>
-
-                          <div class="mb-4">
-                            <div class="text-sb">Neels Faber  </div>
-                            <div>068 157 5511</div>
-                            <a class="text-wh" href="mailto:neels.faber@agrisol.co.za">neels.faber@agrisol.co.za</a>
-                          </div>
-                          <div class="mb-4">
-                            <div class="text-sb">GJ Jansen van Rensburg   </div>
-                            <div>079 395 9027</div>
-                            <a class="text-wh" href="mailto:gj.jansevanrensburg@agrisol.co.za">gj.jansevanrensburg@agrisol.co.za</a>
-                          </div>
-                          <div class="mb-4">
-                            <div class="text-b mb-1 text-gld">KwaZulu-Natal</div>
-                            <div class="text-sb">Altus Geldenhuis</div>
-                            <div>082 568 1045</div>
-                            <a class="text-wh" href="mailto:altus.geldenhuis@agrisol.co.za">altus.geldenhuis@agrisol.co.za</a>
-                          </div>
-                        </div>
-                       
-                      
-                        <div class="col-4">
-                          <div class="text-b mb-1 text-gld">North West</div>
-                          <div class="mb-4">
-                            <div class="text-sb">Raynard Oosthuizen</div>
-                            <div>076 841 1171</div>
-                            <a class="text-wh" href="mailto:raynard.oosthuizen@agrisol.co.za">raynard.oosthuizen@agrisol.co.za</a>
-                          </div>
-                          <div class="mb-4">
-                            <div class="text-sb">Tharina van Zyl</div>
-                            <div>084 317 4324</div>
-                            <a class="text-wh" href="mailto:tharina.vanzyl@agrisol.co.za">tharina.vanzyl@agrisol.co.za</a>
-                          </div>
-
-                          <div class="text-b mb-1 text-gld">Mpumalanga</div>
-                          <div class="mb-4">
-                            <div class="text-sb">Wynand Nieuwenhuizen</div>
-                            <div>079 504 9412</div>
-                            <a class="text-wh" href="mailto:nieuwenhuizenW@agricare.co.za">nieuwenhuizenW@agricare.co.za</a>
-                          </div>
-
-                          <div class="mb-4">
-                            <div class="text-sb">Gerrit de Jager</div>
-                            <div>082 388 2176</div>
-                            <a class="text-wh" href="mailto:gelderlandbdy@gmail.com">gelderlandbdy@gmail.com</a>
-                          </div>
-                         
-                        </div>   
-                        
-                        <div class="col-4">
-                          <div class="mb-4">
-                            <div class="text-b mb-1 text-gld">Northern Cape</div>
-                            <div class="text-sb">Hendrico Esterhuizen</div>
-                            <div>079 710 5821</div>
-                            <a class="text-wh" href="mailto: hendrico.esterhuizen@agrisol.co.za">hendrico.esterhuizen@agrisol.co.za</a>
-                          </div>
-
-                          <div class="mb-4">
-                            <div class="text-b mb-1 text-gld">Western Cape</div>
-                            <div class="text-sb">Daneel du Preez</div>
-                            <div>081 041 1457</div>
-                            <a class="text-wh" href="mailto: daneel.dupreez@agrisol.co.za">daneel.dupreez@agrisol.co.za</a>
-                          </div>
-
-                          <div class="mb-4">
-                            <div class="text-b mb-1 text-gld">Zambia</div>
-                            <div class="text-sb">Christiaan Liebenberg</div>
-                            <div>061 020 1234</div>
-                            <a class="text-wh" href="mailto:christiaan.liebenberg@agrisol.co.za">christiaan.liebenberg@agrisol.co.za</a>
-                          </div>
-
-                          <div class="mb-4">
-                            <div class="text-b mb-1 text-gld">Botswana</div>
-                            <div class="text-sb">Christiaan Liebenberg</div>
-                            <div>061 020 1234</div>
-                            <a class="text-wh" href="mailto:christiaan.liebenberg@agrisol.co.za">christiaan.liebenberg@agrisol.co.za</a>
-                          </div>
-
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            
-
-          </div>
-            
-          </div>
-            
-            
-          </div>
-          
+        
+            </div>
+        
+        
+            </div>
+        
+        </div>
       </div>
 
       <footer class="row">
@@ -666,6 +649,6 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
   </body>
 </html>
