@@ -19,7 +19,7 @@
         border:2px solid transparent; //TODO: not supposed to be necessary
     }
 
-    .nav-link.active {
+    .nav-link.active, .nav-link:hover {
         border:2px solid $brand-primary;    
     }
     

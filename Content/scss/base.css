@@ -206,7 +206,7 @@ a:hover {
   border: 2px solid transparent;
 }
 
-#theme .nav-link.active {
+#theme .nav-link.active, #theme .nav-link:hover {
   border: 2px solid #005750;
 }
 
