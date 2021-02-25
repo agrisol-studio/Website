@@ -15,11 +15,11 @@
 
 #theme {
 
-    .nav-item {
-        border:2px solid transparent; //TODO: not suppose to be necessary
+    .nav-link {
+        border:2px solid transparent; //TODO: not supposed to be necessary
     }
 
-    .nav-item.active {
+    .nav-link.active, .nav-link:hover {
         border:2px solid $brand-primary;    
     }
     
