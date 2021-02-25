@@ -242,9 +242,10 @@ a:hover {
   }
 }
 
-#contact-tabs .nav-link.active {
+#contact-tabs .nav-link.active, #contact-tabs .nav-link:hover {
   background-color: transparent;
-  border-color: white;
+  border-color: transparent;
+  border-bottom-color: white;
   color: white;
 }
 

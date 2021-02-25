@@ -24,9 +24,10 @@
 
     }
 
-    .nav-link.active{
+    .nav-link.active, .nav-link:hover{
         background-color: transparent;
-        border-color:white;
+        border-color:transparent;
+        border-bottom-color:white;
         color:white;
     }
 }
