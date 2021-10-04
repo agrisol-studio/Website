@@ -54,7 +54,7 @@ a:hover {
 }
 
 .agrisolName {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 10vw;
   color: white;
   letter-spacing: 2vw;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .fold-heading {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
   font-size: 2.3rem;
   letter-spacing: 0.18rem;
 }
@@ -188,7 +188,7 @@ a:hover {
 
 .brandLogo {
   color: #005750;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
 }
 
 .brandLogo .brandText .name {
@@ -211,7 +211,7 @@ a:hover {
 }
 
 #theme .nav-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", "Segoe UI", sans-serif;
   font-weight: 700;
   color: #005750;
   font-size: 0.8rem;
