@@ -188,7 +188,7 @@ a:hover {
 
 .brandLogo {
   color: #005750;
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .brandLogo .brandText .name {
