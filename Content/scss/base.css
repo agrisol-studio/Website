@@ -6,6 +6,11 @@
   background-color: #E6E6E5;
 }
 
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("../Fonts/BebasNeue.otf") format("opentype");
+}
+
 body {
   color: #005750;
   font-family: 'Open Sans', sans-serif;
@@ -188,7 +193,7 @@ a:hover {
 
 .brandLogo {
   color: #005750;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'BebasNeue';
 }
 
 .brandLogo .brandText .name {
