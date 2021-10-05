@@ -1,14 +1,14 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("../Fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
 .agr-bg-primary {
   background-color: #005750;
 }
 
 .agr-bg-grey {
   background-color: #E6E6E5;
-}
-
-@font-face {
-  font-family: 'BebasNeue';
-  src: url("../Fonts/BebasNeue.otf") format("opentype");
 }
 
 body {
@@ -193,7 +193,7 @@ a:hover {
 
 .brandLogo {
   color: #005750;
-  font-family: 'BebasNeue';
+  font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
 }
 
 .brandLogo .brandText .name {
