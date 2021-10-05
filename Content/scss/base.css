@@ -275,4 +275,9 @@ footer {
 .border-blue {
   border: 1px solid blue;
 }
+
+div.brandText.ml-2 {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
 /*# sourceMappingURL=base.css.map */
