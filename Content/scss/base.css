@@ -3,6 +3,10 @@
   src: url("../Fonts/BebasNeue-Regular.ttf") format("truetype");
 }
 
+.brandLogo {
+  font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
+}
+
 .agr-bg-primary {
   background-color: #005750;
 }
