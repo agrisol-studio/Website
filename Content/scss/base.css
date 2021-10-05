@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'BebasNeue';
-  src: url("../Fonts/BebasNeue-Regular.ttf") format("truetype");
-}
-
-.brandLogo {
-  font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
-}
-
 .agr-bg-primary {
   background-color: #005750;
 }
@@ -63,7 +54,7 @@ a:hover {
 }
 
 .agrisolName {
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 10vw;
   color: white;
   letter-spacing: 2vw;
@@ -103,7 +94,7 @@ a:hover {
 }
 
 .fold-heading {
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 2.3rem;
   letter-spacing: 0.18rem;
 }
