@@ -13,7 +13,6 @@ body {
 }
 
 .text-i {
-  font-family: 'Open Sans', sans-serif;
   font-style: italic;
 }
 
@@ -274,5 +273,9 @@ footer {
 
 .border-blue {
   border: 1px solid blue;
+}
+
+.clickable {
+  cursor: pointer;
 }
 /*# sourceMappingURL=base.css.map */
