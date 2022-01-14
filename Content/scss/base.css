@@ -278,4 +278,20 @@ footer {
 .clickable {
   cursor: pointer;
 }
+
+.list-group-item-action {
+  cursor: pointer;
+  background-color: #f2f6f6;
+  color: #005750;
+  font-weight: 600;
+}
+
+.list-group-item-action.disabled {
+  background-color: white;
+}
+
+.list-group-item-action:active {
+  background-color: #005750;
+  color: white;
+}
 /*# sourceMappingURL=base.css.map */

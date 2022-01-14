@@ -35,3 +35,20 @@ footer{
 .clickable{
     cursor:pointer;
 }
+
+
+.list-group-item-action{
+    cursor: pointer;
+    background-color: #f2f6f6;
+    color: $brand-primary;
+    font-weight: 600;
+    
+    &.disabled{
+        background-color: white;
+    }
+
+    &:active {
+        background-color: $brand-primary;
+        color: white;
+    }
+}
